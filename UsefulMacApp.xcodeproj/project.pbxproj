@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4FE802242E6CE569004107A0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4FE802232E6CE569004107A0 /* FirebaseAuth */; };
+		4FE802262E6CE569004107A0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4FE802252E6CE569004107A0 /* FirebaseFirestore */; };
+		4FE802292E6CE58A004107A0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 4FE802282E6CE58A004107A0 /* GoogleSignIn */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4FE801012E56558E004107A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +35,22 @@
 		4FE8010A2E56558E004107A0 /* UsefulMacAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsefulMacAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4FE8022B2E6CE5AE004107A0 /* Exceptions for "UsefulMacApp" folder in "UsefulMacApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4FE800EE2E56558D004107A0 /* UsefulMacApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4FE800F12E56558D004107A0 /* UsefulMacApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FE8022B2E6CE5AE004107A0 /* Exceptions for "UsefulMacApp" folder in "UsefulMacApp" target */,
+			);
 			path = UsefulMacApp;
 			sourceTree = "<group>";
 		};
@@ -52,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE802242E6CE569004107A0 /* FirebaseAuth in Frameworks */,
+				4FE802262E6CE569004107A0 /* FirebaseFirestore in Frameworks */,
+				4FE802292E6CE58A004107A0 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +134,9 @@
 			);
 			name = UsefulMacApp;
 			packageProductDependencies = (
+				4FE802232E6CE569004107A0 /* FirebaseAuth */,
+				4FE802252E6CE569004107A0 /* FirebaseFirestore */,
+				4FE802282E6CE58A004107A0 /* GoogleSignIn */,
 			);
 			productName = UsefulMacApp;
 			productReference = 4FE800EF2E56558D004107A0 /* UsefulMacApp.app */;
@@ -195,6 +220,10 @@
 			);
 			mainGroup = 4FE800E62E56558C004107A0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4FE802222E6CE569004107A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4FE802272E6CE58A004107A0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4FE800F02E56558D004107A0 /* Products */;
 			projectDirPath = "";
@@ -401,6 +430,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UsefulMacApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Blink;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +459,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UsefulMacApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Blink;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -549,6 +582,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FE802222E6CE569004107A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.2.0;
+			};
+		};
+		4FE802272E6CE58A004107A0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FE802232E6CE569004107A0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FE802222E6CE569004107A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4FE802252E6CE569004107A0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FE802222E6CE569004107A0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4FE802282E6CE58A004107A0 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FE802272E6CE58A004107A0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4FE800E72E56558C004107A0 /* Project object */;
 }

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-from: #0B1422;
+  --bg-to: #08111B;
+  --card-from: #0E1C2F;
+  --card-to: #0B1726;
+  --text: #E8F0FF;
+  --muted: #A9B7D0;
+  --mint: #3FE1B0;
+  --purple: #B18CFF;
+  --amber: #F5C56B;
+  --red: #FF6B6B;
+}
+
+html, body, #root { height: 100%; }
+body {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(to bottom, var(--bg-from), var(--bg-to));
+  color: var(--text);
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  border: 1px solid rgba(255,255,255,0.05);
+  background: linear-gradient(135deg, var(--card-from), var(--card-to));
+}
+
+.chip {
+  border-radius: 999px;
+  padding: 4px 10px;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.06), 0 0 12px rgba(63,225,176,0.15);
+}
+
+
