@@ -3,6 +3,14 @@
     <channel>
         <title>UsefulMacApp</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Tue, 09 Sep 2025 12:50:51 -0400</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/v1.1.1/BlinkAI.zip" length="12641338" type="application/octet-stream" sparkle:edSignature="LuKNG1da1MUjRVRI1/AylnH79cU/akbTX2dWcdh5mPeJ3vFlh3lm98BeE80SOJIcGPPzNUv6iTzL3wsGAqCOAw=="/>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Tue, 09 Sep 2025 11:59:52 -0400</pubDate>
             <sparkle:version>1</sparkle:version>
