@@ -3,6 +3,15 @@
     <channel>
         <title>Blink</title>
         <item>
+            <title>1.6.0</title>
+            <pubDate>Wed, 10 Sep 2025 10:48:50 -0400</pubDate>
+            <link>https://blinkapp.ai/releasenotes/1.6.0.html</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-1.6.0.zip" length="12738179" type="application/octet-stream" sparkle:edSignature="XR2RFaY3BLetEe/GYj7Hoyv8xaQ+sN/oqbEmRbAmRbMEg1kpArBkYTwATnKHnCRKM/eTkCco7NNCZk1573eCAQ=="/>
+        </item>
+        <item>
             <title>1.5.3</title>
             <pubDate>Wed, 10 Sep 2025 10:39:00 -0400</pubDate>
             <link>https://blinkapp.ai/releasenotes/1.4.1.html</link>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-1.5.2.zip" length="12737382" type="application/octet-stream" sparkle:edSignature="CehWu0z+9IV2Qi56XE4bFKhXOT7EDcIxuIt0fOT1dP5zHRlcPdBaV7LmHR+Z0k7E2z9DM0gDgunyEJr4Ff0tCQ=="/>
-        </item>
-        <item>
-            <title>1.5.1</title>
-            <pubDate>Wed, 10 Sep 2025 10:04:47 -0400</pubDate>
-            <link>https://blinkapp.ai/releasenotes/1.4.1.html</link>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-1.5.1.zip" length="12737447" type="application/octet-stream" sparkle:edSignature="kcyn0bw7IwldupkCdUkLcbVMKzICcb0JPGL7JDUhx+M5GV/5F8HUcnEYmJCPbfdeOr2kZKMlMjDaJ/f/D4sqCw=="/>
         </item>
     </channel>
 </rss>
