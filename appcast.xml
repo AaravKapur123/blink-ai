@@ -1,15 +1,19 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>Blink</title>
-        <item>
-            <title>1.4.0</title>
-            <pubDate>Tue, 09 Sep 2025 22:58:08 -0400</pubDate>
-            <link>https://blinkapp.ai/releasenotes/1.4.0.html</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-1.4.0.zip" length="12735189" type="application/octet-stream" sparkle:edSignature="kjjy/YzfWj+GfnaiSniRm7P9EMHy5rTbuoc7g2wWTJ+FcMJ4Xj/fJ9+fO+on+ULaPHDB0Y18EHssJPHwKcMIDg=="/>
-        </item>
-    </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Blink</title>
+    <item>
+      <title>1.8.0</title>
+      <pubDate>Wed, 10 Sep 2025 12:24:00 -0400</pubDate>
+      <link>https://blinkapp.ai/releasenotes/1.8.0.html</link>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-1.8.0/BlinkAI-1.8.0.zip"
+        length="12757094"
+        type="application/zip"
+        sparkle:edSignature="9P8u+rKRMHKRgSCmzLzQQohMkiE0bE5v2zdc5itJY+tNIhxLG4P4+HiNNkudY8ExWi31wyPkSFioXSMF9uJsAA==" />
+    </item>
+  </channel>
 </rss>
