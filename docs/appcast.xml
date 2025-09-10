@@ -3,13 +3,22 @@
     <channel>
         <title>Blink</title>
         <item>
+            <title>2.2.0</title>
+            <pubDate>Wed, 10 Sep 2025 15:37:19 -0400</pubDate>
+            <link>https://blinkapp.ai/releasenotes/2.2.0.html</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-2.2.0.zip" length="12758748" type="application/octet-stream" sparkle:edSignature="DqNUCAWCB2JV32E09zX4meJsR0zenWRKOg40poPDIKOBIVDDZNLjzY+lhczuvzvl/lNVaZmm6lN0ONeHV/RnAw=="/>
+        </item>
+        <item>
             <title>2.1.0</title>
             <pubDate>Wed, 10 Sep 2025 13:44:55 -0400</pubDate>
             <link>https://blinkapp.ai/releasenotes/2.1.0.html</link>
             <sparkle:version>16</sparkle:version>
             <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/v2.1.0/BlinkAI-2.1.0.zip" length="12757076" type="application/octet-stream" sparkle:edSignature="6saZklvWJ8MBUsG2ONP9PnkKOgGOXiRjcLPWWKkU5fDmVFY0eLstnYSJlu1pkWPQ4jV26FLb9AakTpuYAY54AQ=="/>
+            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-2.1.0.zip" length="12757076" type="application/octet-stream" sparkle:edSignature="6saZklvWJ8MBUsG2ONP9PnkKOgGOXiRjcLPWWKkU5fDmVFY0eLstnYSJlu1pkWPQ4jV26FLb9AakTpuYAY54AQ=="/>
         </item>
         <item>
             <title>2.0.0</title>
@@ -19,15 +28,6 @@
             <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-2.0.0.zip" length="12757059" type="application/octet-stream" sparkle:edSignature="dErL8ac+OrOx2FHOn7LXNyTWr7MmH5J6//PIuZL1FnVZVG6dxyMYB/ciR7D+wtt5cj0HZbYK0VLJSLnZcrYvCw=="/>
-        </item>
-        <item>
-            <title>1.9.0</title>
-            <pubDate>Wed, 10 Sep 2025 13:21:16 -0400</pubDate>
-            <link>https://blinkapp.ai/releasenotes/1.9.0.html</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-1.9.0.zip" length="12757086" type="application/octet-stream" sparkle:edSignature="Fuj2p1Si2EprlDRy7TWCKO1fawKhhDNyL/3lwAHBBZ1l3S8B4b43wI383i5k1ENM1m40Eg0svjYZBPYV/WPXDw=="/>
         </item>
     </channel>
 </rss>
