@@ -9,7 +9,7 @@
             <sparkle:version>17</sparkle:version>
             <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/BlinkAI-2.2.0.zip" length="12758748" type="application/octet-stream" sparkle:edSignature="DqNUCAWCB2JV32E09zX4meJsR0zenWRKOg40poPDIKOBIVDDZNLjzY+lhczuvzvl/lNVaZmm6lN0ONeHV/RnAw=="/>
+            <enclosure url="https://github.com/AaravKapur123/blink-ai/releases/download/v2.2.0/BlinkAI-2.2.0.zip" length="12758748" type="application/octet-stream" sparkle:edSignature="DqNUCAWCB2JV32E09zX4meJsR0zenWRKOg40poPDIKOBIVDDZNLjzY+lhczuvzvl/lNVaZmm6lN0ONeHV/RnAw=="/>
         </item>
         <item>
             <title>2.1.0</title>
